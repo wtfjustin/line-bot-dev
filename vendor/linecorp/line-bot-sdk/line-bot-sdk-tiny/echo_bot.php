@@ -48,3 +48,5 @@ foreach ($client->parseEvents() as $event) {
             break;
     }
 };
+
+curl -v -X POST https://api.line.me/v2/bot/message/push \ -H 'Content-Type: application/json' \ -H 'Authorization: Bearer cylpb2KTGX17tf6hGfMzcSxp/BtdVc9YF+/FrNesoQ/r4cf+Ukond3JE8bSGNS/qn0+FT7jpNDKkeon64frAbm/rQuWppx9D0c1S4CBAn3lTpS5//sykhWPrwWWV9ChBEIocR/3ITj+akvujtNF4IgdB04t89/1O/w1cDnyilFU=' \ -d '{ "to": "U805edb5f9f8a2ddd3fe907d26fce9ab2", "messages":[ { "type":"text", "text":"Hello, world1" }, { "type":"text", "text":"Hello, world2" } ] }'
