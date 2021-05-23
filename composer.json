@@ -1,0 +1,12 @@
+{
+    "name": "user/line",
+    "authors": [
+        {
+            "name": "Vk",
+            "email": "vongsakorntie@gmail.com"
+        }
+    ],
+    "require": {
+        "linecorp/line-bot-sdk": "^7.0"
+    }
+}
